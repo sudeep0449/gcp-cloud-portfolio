@@ -1,0 +1,17 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform.lock.hcl
+crash.log
+
+# Credentials - never commit keys
+*.json.key
+*-key.json
+credentials*.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
